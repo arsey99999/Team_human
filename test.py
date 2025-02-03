@@ -2,5 +2,6 @@
 def add(a,b):
     # minseok
     c = a+b 
-    
-    return c
+    # kiseong
+    d = c
+    return d
