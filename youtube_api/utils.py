@@ -2,11 +2,13 @@ from googleapiclient.discovery import build
 from pytube import YouTube
 from .models import YouTubeVideo
 import re
-
+import json
 
 # YouTube API 설정
-with open("config.json", "r") as config:
+with open("config.json", "r") as config_file:
+    config = json.load(config_file)  # JSON 파일을 파싱
     API_KEY = config["YOUTUBE_API_KEY"]
+youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
