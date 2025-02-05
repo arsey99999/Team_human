@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import YouTubeVideo  # Place 모델 추가
+from .models import YouTubeVideo, Place
 from naver_api.models import Place
 
 @admin.register(YouTubeVideo)
