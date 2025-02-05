@@ -17,4 +17,5 @@ pip install pytube==15.0.0
 pip install rsa==4.9
 pip install uritemplate==4.1.1
 pip install youtube-transcript-api==0.6.3
+pip install pandas sqlalchemy psycopg2 matplotlib
 """
