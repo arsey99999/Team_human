@@ -5,7 +5,7 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    initial = Trues
+    initial = True
 
     dependencies = []
 
